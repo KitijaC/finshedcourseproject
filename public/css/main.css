@@ -1,0 +1,439 @@
+                                                                /* Main page CSS */
+
+
+                                            /* Header style */
+
+header{
+    border-bottom: 1.5px solid rgb(146, 145, 145);
+    background: rgba(248, 210, 197, 0.685);
+    /* background-image:url('images/ligh.jpg'); */
+}
+
+li a{
+    font-size: 23px;
+}
+
+@import "compass/css3";
+
+.shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.mainLogo img{
+    max-height: 50px;
+    max-width: 130px;
+    /* margin: 10px; */
+}
+
+
+
+                                            /* Main menu styling */
+
+.active{
+    color: rgb(143, 143, 143);
+    font-weight: bold;
+}
+
+.row{
+    margin: 10px auto;
+}
+
+.main-menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+.main-menu-item{
+    display: inline-block;
+    height: 50px;
+    margin-left: 5px;
+    line-height: 50px;
+    /* border-radius: 100%; */
+}
+
+.main-menu-item  a{
+    display: block;
+    height: 50px;
+    padding: 0px 15px;
+    color: rgb(77, 75, 75);
+    font-weight: 500;
+}
+
+.main-menu-item  a:hover{
+    /* background: rgba(255, 127, 81, 50); */
+    color: coral;
+    border-radius: 20%;
+    padding: 40px auto;
+    text-decoration: none;   
+}
+
+.mmiactive { 
+    font-weight: bolder;
+}
+
+            /* Current possition in the page */
+
+
+.breadcrumb{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+}
+
+.breadcrumb li a{
+    color: rgb(255, 89, 89);
+    font-size: 18px;
+}
+
+
+.breadcrumb li a:hover{
+    color: rgb(192, 51, 51);
+}
+
+.breadcrumb .active{
+    color: rgb(70, 68, 68);
+    text-decoration: none;
+    
+}
+
+
+                        /* Body styling */
+
+body{
+    background-color: rgb(238, 236, 236);
+    /* margin: 0 auto;
+    padding: 20px 10px; */
+    line-height: 1.6em;
+    font: normal 17px 'EB Garamond', serif;
+
+}
+
+h4{
+    font-size: 22px;
+    font-weight: bold;
+    /* text-shadow: 5px 5px 50% white; */
+}
+
+
+.slider img{
+    margin: 10px auto 10px;
+    max-width: 70%;
+    align-content: center;
+    margin-top: 25px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; 
+    width: 70%; */
+}
+
+                    /* Home page article preview */
+
+.small-article img{
+    max-width: 100%;
+    margin: 5px;
+}
+
+.readMore{
+    display:block;
+    color: rgb(196, 73, 73);
+    text-decoration: none;
+
+}
+
+.readMore:hover{
+    color: rgb(141, 45, 45);
+    text-decoration: none;
+}
+
+.readMore:visited{
+    text-decoration: none;
+    color: maroon;
+}
+
+                    /* Social media links */
+
+.allMedia{
+    position: fixed;
+    top: 25%;
+    opacity: 50%;;
+    display: inline-block;
+}
+
+.allMedia ul{
+    list-style-type: none;
+    margin: 3px 5px;
+    padding: 0;
+}
+
+
+.mediaIcon{
+    max-width: 35px;
+    display: inline-block;
+    margin: 5px 3px; 
+    align-content: center;  
+}
+
+.mediaIcon:hover{
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    padding: 2px;
+    margin: 10px;
+    border-radius: 50%;
+    transform: scale(1.75);
+}
+
+
+                                            /* Footer styles */
+
+footer{
+    border-top: 1px solid darkgrey;
+    background: rgba(248, 212, 199, 0.192);
+    padding-top: 3px;
+}
+
+.main-menu-footer{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    font-size: 14px;
+}
+
+.main-menu-item-footer{
+    display: inline-block;
+    height: 5px;
+    margin-left: 3px;
+    line-height: 5px;
+}
+
+.footerNav{
+    font-size: 14px;
+    padding: 0px 10px;
+    color: rgb(77, 75, 75)
+}
+
+.footerNav:hover{
+    color: coral;
+    border-radius: 20%;
+    padding: 40px auto;
+    text-decoration: none;
+}
+
+                                                                /* About page CSS */
+
+#fragment-1{
+    font: normal 17px 'EB Garamond', serif;
+    background-color:rgba(253, 207, 190, 0.205);
+}
+
+#fragment-2{
+    font: normal 17px 'EB Garamond', serif;
+    background-color:rgba(253, 207, 190, 0.205);
+
+}
+#fragment-3{
+    font: normal 17px 'EB Garamond', serif;
+    background-color:rgba(253, 207, 190, 0.205);
+
+}
+
+.fragment1{
+    font: 300 20px 'EB Garamond', serif;
+    margin: 3px auto;
+}
+
+.fragment2{
+    font: 300 20px 'EB Garamond', serif;
+    margin: 3px auto;
+}
+
+.fragment3{
+    font: 300 20px 'EB Garamond', serif;
+    margin: 3px auto;
+}
+
+#map{
+    padding: 50%;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+                                                                /* Articles page CSS */
+
+
+
+                        /* Article design */
+
+.articlesPage img{
+    max-width: 100%;
+    margin: 5px;
+}
+
+.articlesPage{
+    border-bottom: 1px solid rgb(70, 70, 70);
+    padding: 20px 10px;
+}
+
+.big{
+    border-top: 1px solid rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+
+
+                            /* Page numbers */
+
+
+.pagination{
+    display: inline;
+    font-weight: 500;
+    /* float: left; */
+
+}
+
+.pagination a {
+    color: rgb(19, 18, 18);
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color .5s;
+}
+
+.pagination a:hover{
+    background-color: rgb(255, 137, 156);
+    border-radius: 20%;
+}
+
+.pagination .active{
+    background-color: pink;
+    border-radius: 20%;
+}
+
+.pageNumber li{
+    list-style: none;
+    float: left;
+}
+
+.pageNumber li a {
+    display: block;
+    float: right;
+}
+
+                        /* Single big article */
+
+.allArticles{
+    text-align: justify;
+}
+
+
+                                                                /* Chat page CSS */
+
+.chat-main-window{
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: rgba(245, 145, 109, 0.205);
+}
+.chat-message{
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.301);
+}
+.chat-message:first-child{
+    border-top: none;
+}
+.chat-message h5 em{
+    color: #ccc;
+    font-size: 12px;
+    font-style: normal; 
+}
+.chat-message-form{
+    padding: 10px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    overflow: hidden;
+    background-color: rgba(253, 207, 190, 0.205);
+}
+#chat-username-input{
+    width: 300px;
+    background-color: rgba(248, 248, 248, 0.774);
+}
+
+#chat-text-input{
+    background-color: rgba(248, 248, 248, 0.774);
+}
+#chat-send-message-button{
+margin-top: 45px;
+}
+
+                                                                /* Register page CSS */
+
+
+
+
+
+.register{
+    font-style: italic;
+    font-weight: 600;
+    padding: 20px auto;
+    font-size: 30px;
+}
+
+.form-horizantal{
+    width: 25%;
+
+}
+
+.control-label{
+    margin: 9px 0;
+}
+
+.inputField{
+    background-color:rgba(253, 207, 190, 0.205);
+    margin: 10px 0;
+}
+
+.inputField:focus{
+    border: 1px solid grey;
+}
+
+button{
+    float: right;
+    /* font-size: 14px;
+    padding: 10px; */
+    margin: 20px;
+}
+
+.errors{
+    color: rgb(158, 88, 88);
+}
+
+.errors li{
+    width: 150%;
+    list-style-type: circle;
+    /* text-align: center; */
+    text-align: justify
+}
+
+
+
+
+
+
+
+
+
+
+
